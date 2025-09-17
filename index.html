@@ -27,7 +27,7 @@ pre{ background:#0f172a; color:#e6eef8; padding:12px; border-radius:8px; overflo
 <nav>
 <a href="#">На головну</a>
 <a href="#about">Відомості про фільм</a>
-<a href="#contact">Головні герої</a>
+<a href="#contact">Історія Хатіко як символ</a>
 </nav>
 </header>
 <main style="margin-top:18px">
@@ -35,7 +35,7 @@ pre{ background:#0f172a; color:#e6eef8; padding:12px; border-radius:8px; overflo
 <h2 id="welcome">Коротко про фільм</h2>
 <p style="color:var(--muted)">«Хатіко: Вірний друг» — екранізація відомої історії життя песика Хатіко. Фільм було знято у 2009 році. Країна випуску США. Тривалість фільму 85 хвилин. На 1 березня 2024 року фільм займав 235-ту позицію у списку 250 кращих фільмів за версією IMDb.</p>
 <div class="actions">
-<button class="btn-primary" id="greetBtn">Greet me</button>
+<button class="btn-primary" id="greetBtn">Відома фраза</button>
 <button class="btn-ghost" id="showCode">Show HTML sample</button>
 </div>
 <div id="output" style="margin-top:14px"></div>
@@ -45,8 +45,8 @@ pre{ background:#0f172a; color:#e6eef8; padding:12px; border-radius:8px; overflo
 <p style="color:var(--muted)">Несподівані зустрічі часом виявляються доленосними і приносять з собою багато світлих, радісних подій. Саме такою виявилася зустріч професора Вілсона з маленьким, симпатичним цуценятком, що виросло розумним псом, якого назвали Хатіко. Їх історія сповнена радості і печалі, насичена концентрованими, справжніми емоціями. Зв'язок між люблячими, вірними серцями розірвати неможливо. Справжня любов відразу ж пов'язує господаря і його улюбленця. І навіть після смерті Уїлсона, Хатіко не забув, не зміг з цим змиритися... Продовжуючи тужити, він приходитиме до місця їх постійних зустрічей. І хто сказав, що тваринам недоступні вищі емоції, такі, наприклад, як любов? Хатіко служить живим спростуванням подібних заяв.</p>
 </section>
 <section class="card" style="margin-top:18px">
-<h3 id="contact">Contact</h3>
-<p style="color:var(--muted)">Want changes? Edit the HTML directly or ask me to customize it for you.</p>
+<h3 id="contact">Історія Хатіко як символ</h3>
+<p style="color:var(--muted)">Історія Хатіко стала відомою завдяки його безмежній відданості: щодня він зустрічав свого господаря на станції Сібуя, а після смерті професора продовжував чекати на нього на тому ж місці. Його відданість надихнула на створення пам'ятника перед станцією Сібуя та численні історії, фільми та книги, які підкреслюють значення вірності та любові.</p>
 <pre id="codePreview" style="display:none">&lt;!-- example: put your snippet here --&gt;&#10;&lt;p&gt;Hello world&lt;/p&gt;</pre>
 </section>
 </main>
@@ -58,8 +58,8 @@ pre{ background:#0f172a; color:#e6eef8; padding:12px; border-radius:8px; overflo
 document.getElementById('now').textContent = new Date().toLocaleString();
 document.getElementById('greetBtn').addEventListener('click', function(){
 const out = document.getElementById('output');
-out.innerHTML = '<strong>Hello!</strong> Nice to meet you. \n' +
-'Try the "Show HTML sample" button to reveal a small snippet.';
+out.innerHTML = '<strong>Найвідоміша фраза фільму «Хатіко» — це, мабуть, слова, що підкреслюють вірність та відданість:</strong> «Якщо Хатіко хоче чекати, він повинен чекати...»\n' +
+'Також фраза, що говорить про суть собачої відданості: «Вони навчили мене цінувати вірність… і ніколи не забувати про тих, кого любиш».';
 });
 document.getElementById('showCode').addEventListener('click', function(){
 const pre = document.getElementById('codePreview');
@@ -69,5 +69,6 @@ pre.style.display = pre.style.display === 'none' ? 'block' : 'none';
 </body>
 
 </html>
+
 
 
